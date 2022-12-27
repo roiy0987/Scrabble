@@ -31,8 +31,6 @@ public class Dictionary {
         }catch (IOException e) {
             throw new RuntimeException(e);
         }
-        //hello
-        //hello yuval
     }
     public boolean query(String word){
         if(this.cLRU.query(word))
